@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: tmf634
+  description: TMF 634 Resource Catalog Management
+  tags:
+    - tmf
+    - tmf639
+  links:
+    - url: https://openslice-1.euprojects.net/tmf-api/swagger-ui/index.html?urls.primaryName=tmf-api-634-ResourceCatalogManagement-v4.0.0
+      title: Swagger
+      icon: code
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: UOP
+  definition:
+    $text: https://openslice-1.euprojects.net/tmf-api/v3/api-docs/tmf-api-634-ResourceCatalogManagement-v4.0.0
